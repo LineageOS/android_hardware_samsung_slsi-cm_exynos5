@@ -34,6 +34,24 @@
       "revId": "a62171cd959a1a4a6af2d7e5f3b79739381015e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_b52d20aa",
+        "filename": "libion_exynos/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-08-17T22:42:08Z",
+      "side": 1,
+      "message": "ya, it should do what is expected with it removed. I\u0027ll test to confirm.",
+      "parentUuid": "5f201791_35b7d089",
+      "revId": "a62171cd959a1a4a6af2d7e5f3b79739381015e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
