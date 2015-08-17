@@ -16,6 +16,24 @@
       "revId": "a62171cd959a1a4a6af2d7e5f3b79739381015e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_35b7d089",
+        "filename": "libion_exynos/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-17T22:37:59Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need this at all. If you remove LOCAL_MODULE_PATH it should do the correct thing (placing it into /system/lib or /system/lib64).",
+      "parentUuid": "7f231b9d_27279515",
+      "revId": "a62171cd959a1a4a6af2d7e5f3b79739381015e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
