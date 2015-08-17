@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_95f9044f",
+        "filename": "libgscaler/libgscaler_obj.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 931,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-17T22:31:20Z",
+      "side": 1,
+      "message": "This is kind of weird to me, usually file descriptors aren\u0027t memory addresses.",
+      "revId": "1a7d6e204320721509690a65dcb84759e5808dff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_759428e9",
+        "filename": "libgscaler/libgscaler_obj.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1484,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-17T22:31:20Z",
+      "side": 1,
+      "message": "Same thing here.",
+      "revId": "1a7d6e204320721509690a65dcb84759e5808dff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
