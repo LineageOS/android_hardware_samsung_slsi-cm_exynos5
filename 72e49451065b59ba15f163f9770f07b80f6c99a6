@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_b2e88916",
+        "filename": "libmemtrack/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-08-21T18:13:33Z",
+      "side": 1,
+      "message": "Not 64-bit compatible\n\nLOCAL_MODULE_RELATIVE_PATH :\u003d hw",
+      "revId": "72e49451065b59ba15f163f9770f07b80f6c99a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
