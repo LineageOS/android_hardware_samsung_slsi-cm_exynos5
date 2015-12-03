@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf8cb3f7_d550b6d7",
+        "filename": "libswconverter/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-03T00:01:09Z",
+      "side": 1,
+      "message": "Shouldn\u0027t you distinguish by target arch and target 2nd arch instead?",
+      "revId": "d42717deaaa69f07a10383ac11c4f19d5e9f5617",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
