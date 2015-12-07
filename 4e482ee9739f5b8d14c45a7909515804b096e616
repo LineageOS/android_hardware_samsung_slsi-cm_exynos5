@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f91af0f_6eef9f87",
+        "filename": "libswconverter/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-07T03:28:50Z",
+      "side": 1,
+      "message": "You don\u0027t want to allow the 32-bit multiarch builds to compile with these?",
+      "revId": "4e482ee9739f5b8d14c45a7909515804b096e616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
