@@ -16,6 +16,24 @@
       "revId": "768af04f44051e289c9965c7b8fcbd38a3f5bf68",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa0c359_1f5ba787",
+        "filename": "libgscaler/libgscaler_obj.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 7155
+      },
+      "writtenOn": "2015-12-12T07:24:30Z",
+      "side": 1,
+      "message": "I don\u0027t think so, the exynos_v4l2_open_devname function has no effect (other than checking if the node exists and setting fd accordingly).\nAnd in case of the fallback option still not resulting in an existing node, we\u0027re all out of options anyways.\nI have another patch coming up with minor cleanups as well.",
+      "parentUuid": "3fa0c359_df269f17",
+      "revId": "768af04f44051e289c9965c7b8fcbd38a3f5bf68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
