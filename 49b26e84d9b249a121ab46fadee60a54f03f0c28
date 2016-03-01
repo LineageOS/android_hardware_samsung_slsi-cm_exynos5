@@ -45,6 +45,29 @@
       "revId": "49b26e84d9b249a121ab46fadee60a54f03f0c28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_6e07751e",
+        "filename": "libscaler/libscaler_obj_inc.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-01T06:55:34Z",
+      "side": 1,
+      "message": "Same here.",
+      "range": {
+        "startLine": 456,
+        "startChar": 55,
+        "endLine": 456,
+        "endChar": 68
+      },
+      "revId": "49b26e84d9b249a121ab46fadee60a54f03f0c28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
