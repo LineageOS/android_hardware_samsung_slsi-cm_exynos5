@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_0e8839e5",
+        "filename": "libscaler/libscaler.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-01T04:18:53Z",
+      "side": 1,
+      "message": "Do you still need the void * cast here?",
+      "range": {
+        "startLine": 360,
+        "startChar": 15,
+        "endLine": 360,
+        "endChar": 21
+      },
+      "revId": "49b26e84d9b249a121ab46fadee60a54f03f0c28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_ae6c8d36",
+        "filename": "libscaler/libscaler_obj_inc.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-01T04:18:53Z",
+      "side": 1,
+      "message": "Seems like this should probably be a uintptr_t cast.",
+      "range": {
+        "startLine": 406,
+        "startChar": 55,
+        "endLine": 406,
+        "endChar": 68
+      },
+      "revId": "49b26e84d9b249a121ab46fadee60a54f03f0c28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
