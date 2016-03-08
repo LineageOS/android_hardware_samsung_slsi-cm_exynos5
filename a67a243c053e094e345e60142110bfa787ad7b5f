@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_472044b1",
+        "filename": "libswconverter/swconvertor.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 465,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-08T09:47:50Z",
+      "side": 1,
+      "message": "Err, shouldn\u0027t this be uintptr_t?",
+      "range": {
+        "startLine": 465,
+        "startChar": 45,
+        "endLine": 465,
+        "endChar": 49
+      },
+      "revId": "a67a243c053e094e345e60142110bfa787ad7b5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
