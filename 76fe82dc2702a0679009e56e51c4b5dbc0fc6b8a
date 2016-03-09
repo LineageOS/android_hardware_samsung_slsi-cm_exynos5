@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_2fd0861f",
+        "filename": "libhwcService/ExynosHWCService.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-03-09T06:55:59Z",
+      "side": 1,
+      "message": "Does this just need casting to uint8_t?",
+      "revId": "76fe82dc2702a0679009e56e51c4b5dbc0fc6b8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
