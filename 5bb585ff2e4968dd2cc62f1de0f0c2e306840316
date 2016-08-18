@@ -22,6 +22,24 @@
       "revId": "5bb585ff2e4968dd2cc62f1de0f0c2e306840316",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_40b70f88",
+        "filename": "libhwcService/ExynosHWCService.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2016-08-18T09:18:57Z",
+      "side": 1,
+      "message": "Heh that works. Thanks",
+      "parentUuid": "1fa4df85_40e62feb",
+      "revId": "5bb585ff2e4968dd2cc62f1de0f0c2e306840316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
