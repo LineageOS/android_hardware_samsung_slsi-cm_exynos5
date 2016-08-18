@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_1b52e668",
+        "filename": "libhwcService/ExynosHWCService.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-08-18T15:42:25Z",
+      "side": 1,
+      "message": "Do you still need to 0x prefix? I think %p gives you that.",
+      "revId": "85e78fcdda429285aa2833d002179c9debb808c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
