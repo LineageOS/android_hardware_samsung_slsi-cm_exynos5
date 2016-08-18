@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_40e62feb",
+        "filename": "libhwcService/ExynosHWCService.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-08-18T02:59:43Z",
+      "side": 1,
+      "message": "%p ?",
+      "range": {
+        "startLine": 425,
+        "startChar": 42,
+        "endLine": 425,
+        "endChar": 44
+      },
+      "revId": "5bb585ff2e4968dd2cc62f1de0f0c2e306840316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
