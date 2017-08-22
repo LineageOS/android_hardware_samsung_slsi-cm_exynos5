@@ -28,7 +28,7 @@ LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/../include \
 	$(TOP)/hardware/samsung_slsi-cm/exynos/include \
 	$(TOP)/hardware/samsung_slsi-cm/exynos/libhwcutils \
-	$(TOP)/hardware/samsung_slsi-cm/exynos/libdisplay \
+	$(TOP)/hardware/samsung_slsi-cm/exynos/libexynosdisplay \
 	$(TOP)/hardware/samsung_slsi-cm/exynos/libexynosutils \
 	$(TOP)/hardware/samsung_slsi-cm/$(TARGET_SOC)/include \
 	$(TOP)/hardware/samsung_slsi-cm/$(TARGET_SOC)/libhwcmodule \
