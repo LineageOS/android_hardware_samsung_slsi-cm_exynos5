@@ -26,7 +26,7 @@ LOCAL_C_INCLUDES := \
 	$(TOP)/hardware/samsung_slsi-cm/exynos/libexynosutils
 
 LOCAL_ADDITIONAL_DEPENDENCIES := \
-	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+	INSTALLED_KERNEL_HEADERS
 
 LOCAL_SRC_FILES := libscaler.cpp
 
