@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c656314b_8696102e",
+        "filename": "libhwcService/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-02-16T19:59:20Z",
+      "side": 1,
+      "message": "why not match existing format?",
+      "revId": "7664d20bb73414a19fb1ead7bf1794d968f5b3d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
