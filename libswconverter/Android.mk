@@ -23,6 +23,7 @@ LOCAL_C_INCLUDES := \
 LOCAL_MODULE := libswconverter
 
 LOCAL_CFLAGS :=
+LOCAL_CFLAGS += -Wno-error
 
 LOCAL_ARM_MODE := arm
 
