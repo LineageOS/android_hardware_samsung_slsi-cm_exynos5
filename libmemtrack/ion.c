@@ -27,7 +27,7 @@
 #include "memtrack_exynos5.h"
 
 int ion_memtrack_get_memory(pid_t pid,
-                            int type,
+                            int type __unused,
                             struct memtrack_record *records,
                             size_t *num_records)
 {
@@ -39,7 +39,6 @@ int ion_memtrack_get_memory(pid_t pid,
     int cmp;
     int rc;
     char line[1024];
-    int result;
 
     if (*num_records == 0) {
         return -EINVAL;
