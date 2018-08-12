@@ -161,8 +161,6 @@ const char *CScaler::m_cszEdgeName[CScaler::SC_NUM_EDGES] = {"source", "destinat
 
 void CScaler::Initialize(int instance, bool nonblock)
 {
-    char mutexname[20];
-
     m_fdScaler = -1;
     m_iInstance = instance;
 

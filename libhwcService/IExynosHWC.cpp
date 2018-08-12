@@ -362,7 +362,7 @@ public:
         return (uint32_t)reply.readInt32();
     }
 
-    virtual void setHWCCtl(int ctrl, int val) {
+    virtual void setHWCCtl(int ctrl __unused, int val __unused) {
     };
 
     virtual void setBootFinished()

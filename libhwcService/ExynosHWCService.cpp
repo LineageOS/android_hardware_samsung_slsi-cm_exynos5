@@ -37,9 +37,6 @@ enum {
 };
 
 ExynosHWCService::ExynosHWCService() :
-    mHWCService(NULL),
-    mHWCCtx(NULL),
-    bootFinishedCallback(NULL),
     doPSRExit(NULL)
 {
     ALOGD_IF(HWC_SERVICE_DEBUG, "ExynosHWCService Constructor is called");
@@ -71,7 +68,7 @@ int ExynosHWCService::setWFDOutputResolution(unsigned int width, unsigned int he
     return INVALID_OPERATION;
 }
 
-void ExynosHWCService::setWFDSleepCtrl(bool black)
+void ExynosHWCService::setWFDSleepCtrl(bool black __unused)
 {
 }
 
@@ -240,7 +237,7 @@ void ExynosHWCService::setHdmiHdcp(int status)
     mHWCCtx->externalDisplay->setHdcpStatus(status);
 }
 
-void ExynosHWCService::setHdmiAudioChannel(uint32_t channels)
+void ExynosHWCService::setHdmiAudioChannel(uint32_t channels __unused)
 {
 }
 
@@ -273,7 +270,7 @@ void ExynosHWCService::getWFDOutputResolution(unsigned int *width, unsigned int 
 #endif
 }
 
-int ExynosHWCService::getWFDOutputInfo(int *fd1, int *fd2, struct wfd_layer_t *wfd_info)
+int ExynosHWCService::getWFDOutputInfo(int *fd1 __unused, int *fd2 __unused, struct wfd_layer_t *wfd_info __unused)
 {
     return INVALID_OPERATION;
 }
