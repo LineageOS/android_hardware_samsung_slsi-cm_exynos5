@@ -523,9 +523,10 @@ void csc_RGB565_to_YUV420P(
 
     unsigned int R, G, B;
     unsigned int Y, U, V;
-
-    unsigned int offset1 = width * height;
-    unsigned int offset2 = width/2 * height/2;
+  
+    // unused variables
+    //unsigned int offset1 = width * height;
+    //unsigned int offset2 = width/2 * height/2;
 
     unsigned short int *pSrc = (unsigned short int *)rgb_src;
 
@@ -597,8 +598,8 @@ void csc_RGB565_to_YUV420SP(
 
     unsigned int R, G, B;
     unsigned int Y, U, V;
-
-    unsigned int offset = width * height;
+    // unused variables
+    //unsigned int offset = width * height;
 
     unsigned short int *pSrc = (unsigned short int *)rgb_src;
 
@@ -674,9 +675,9 @@ void csc_ARGB8888_to_YUV420P(
 
     unsigned int R, G, B;
     unsigned int Y, U, V;
-
-    unsigned int offset1 = width * height;
-    unsigned int offset2 = width/2 * height/2;
+    // unused variables
+    //unsigned int offset1 = width * height;
+    //unsigned int offset2 = width/2 * height/2;
 
     unsigned int *pSrc = (unsigned int *)rgb_src;
 
@@ -748,8 +749,8 @@ void csc_ARGB8888_to_YUV420SP(
 
     unsigned int R, G, B;
     unsigned int Y, U, V;
-
-    unsigned int offset = width * height;
+    // unused variable
+    //unsigned int offset = width * height;
 
     unsigned int *pSrc = (unsigned int *)rgb_src;
 
