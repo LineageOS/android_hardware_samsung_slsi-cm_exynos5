@@ -44,7 +44,7 @@ struct memtrack_record record_templates[] = {
     },
 };
 
-int mali_memtrack_get_memory(pid_t pid, int type,
+int mali_memtrack_get_memory(pid_t pid, int type __unused,
                              struct memtrack_record *records,
                              size_t *num_records)
 {
